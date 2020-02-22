@@ -66,7 +66,13 @@ for i in range(len(egs[0])):
             ac = 'AC'
     
     if ac == 'WA':
-        print('eg', i+1, ac, '\n input:\n', stdins, 'predicted:\n', predicted, 'result:\n', result)
+        print('eg', i+1, ac)
+        print('input:')
+        print(stdins)
+        print('predicted:')
+        print(predicted)
+        print('result:')
+        print(result)
     else:
         print('eg', i+1, ac)
 
